@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meta</title>
+    <link rel="icon" href="money-bag.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <video autoplay muted loop id="myVideo">       
+		<source src="dollarback.mp4" type="video/mp4">
+    </video>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            color: White;
+            height: auto;
+            width: auto;
+			margin: 0;
+        }
+
+        h1 {
+            font-family: 'Fredoka One', cursive;
+            animation: rainbow 0.6s linear infinite;
+            font-size: 120px;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+        }
+
+        p {
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9)
+        }
+
+        @keyframes rainbow {
+            0% {
+                color: red;
+            }
+
+            10% {
+                color: orange;
+            }
+
+            20% {
+                color: yellow;
+            }
+
+            30% {
+                color: green;
+            }
+
+            40% {
+                color: blue;
+            }
+
+            50% {
+                color: indigo;
+            }
+
+            60% {
+                color: violet;
+            }
+
+            70% {
+                color: red;
+            }
+
+            100% {
+                color: red;
+            }
+        }
+
+        img {
+            display: block;
+            margin: auto;
+			max-width : 9%;
+        }
+
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+		
+		@media (max-width: 2000px) {
+			h1 {
+				font-size: 75px;
+			}
+			p {
+				font-size: 47px;
+			}
+		}
+		
+		
+    </style>
+</head>
+
+<body>
+    <img src="dollar.gif" alt="dollar" width="300" id="doll">
+    <h1>PARABÉNS PELA META ALCANÇADA!</h1>
+    <p>Meta: R$ XX.XXX.XX,XX</p>
+	<p>Realizado: R$ XX.XXX.XX,XX</p>
+    <img src="porco.gif" alt="porco" width="200">
+</body>
+</html>
